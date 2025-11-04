@@ -1,0 +1,90 @@
+/* Сброс стандартных отступов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Стили для всего тела сайта */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Шапка сайта */
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Секции */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #764ba2;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 0.5rem;
+}
+
+/* Карточки проектов */
+.project-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    border-left: 4px solid #667eea;
+    flex: 1;
+    min-width: 200px;
+}
+
+.project-card h3 {
+    color: #555;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #333;
+    color: white;
+    margin-top: 2rem;
+}
+/* Стили для волшебной кнопки */
+.magic-button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.magic-button:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
